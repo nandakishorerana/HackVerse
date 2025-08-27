@@ -1,0 +1,26 @@
+import { Request, Response, NextFunction } from 'express';
+export declare const getAllServices: (req: Request, res: Response, next: NextFunction) => void;
+export declare const getServiceById: (req: Request, res: Response, next: NextFunction) => void;
+export declare const getServicesByCategory: (req: Request, res: Response, next: NextFunction) => void;
+export declare const searchServices: (req: Request, res: Response, next: NextFunction) => void;
+export declare const getPopularServices: (req: Request, res: Response, next: NextFunction) => void;
+export declare const getServiceCategories: (req: Request, res: Response, next: NextFunction) => void;
+export declare const createService: (req: Request, res: Response, next: NextFunction) => void;
+export declare const updateService: (req: Request, res: Response, next: NextFunction) => void;
+export declare const deleteService: (req: Request, res: Response, next: NextFunction) => void;
+export declare const toggleServiceStatus: (req: Request, res: Response, next: NextFunction) => void;
+export declare const getServiceStats: (req: Request, res: Response, next: NextFunction) => void;
+declare const _default: {
+    getAllServices: (req: Request, res: Response, next: NextFunction) => void;
+    getServiceById: (req: Request, res: Response, next: NextFunction) => void;
+    getServicesByCategory: (req: Request, res: Response, next: NextFunction) => void;
+    searchServices: (req: Request, res: Response, next: NextFunction) => void;
+    getPopularServices: (req: Request, res: Response, next: NextFunction) => void;
+    getServiceCategories: (req: Request, res: Response, next: NextFunction) => void;
+    createService: (req: Request, res: Response, next: NextFunction) => void;
+    updateService: (req: Request, res: Response, next: NextFunction) => void;
+    deleteService: (req: Request, res: Response, next: NextFunction) => void;
+    toggleServiceStatus: (req: Request, res: Response, next: NextFunction) => void;
+    getServiceStats: (req: Request, res: Response, next: NextFunction) => void;
+};
+export default _default;

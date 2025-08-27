@@ -1,0 +1,16 @@
+import { Request, Response } from 'express';
+export declare const getMe: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const updateMe: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const updatePreferences: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const addAddress: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const updateAddress: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const deleteAddress: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const deactivateAccount: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const reactivateAccount: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const getUserStats: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const getAllUsers: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const getUserById: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const updateUser: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const deleteUser: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const getUserStatistics: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const toggleUserStatus: (req: Request, res: Response, next: import("express").NextFunction) => void;

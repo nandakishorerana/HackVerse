@@ -1,0 +1,20 @@
+import { Request, Response, NextFunction } from 'express';
+export declare const createOrder: (req: Request, res: Response, next: NextFunction) => void;
+export declare const verifyPayment: (req: Request, res: Response, next: NextFunction) => void;
+export declare const createPaymentLink: (req: Request, res: Response, next: NextFunction) => void;
+export declare const processRefund: (req: Request, res: Response, next: NextFunction) => void;
+export declare const getTransactions: (req: Request, res: Response, next: NextFunction) => void;
+export declare const handleRazorpayWebhook: (req: Request, res: Response, next: NextFunction) => void;
+export declare const getPaymentStats: (req: Request, res: Response, next: NextFunction) => void;
+export declare const razorpayWebhook: (req: Request, res: Response, next: NextFunction) => void;
+declare const _default: {
+    createOrder: (req: Request, res: Response, next: NextFunction) => void;
+    verifyPayment: (req: Request, res: Response, next: NextFunction) => void;
+    createPaymentLink: (req: Request, res: Response, next: NextFunction) => void;
+    processRefund: (req: Request, res: Response, next: NextFunction) => void;
+    getTransactions: (req: Request, res: Response, next: NextFunction) => void;
+    handleRazorpayWebhook: (req: Request, res: Response, next: NextFunction) => void;
+    razorpayWebhook: (req: Request, res: Response, next: NextFunction) => void;
+    getPaymentStats: (req: Request, res: Response, next: NextFunction) => void;
+};
+export default _default;

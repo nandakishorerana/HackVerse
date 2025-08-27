@@ -1,0 +1,10 @@
+import { Request, Response } from 'express';
+export declare const getDashboardStats: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const getAnalytics: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const getSystemHealth: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const getRecentActivities: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const sendAnnouncement: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const getPlatformReport: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const updateSettings: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const exportData: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const getPendingApprovals: (req: Request, res: Response, next: import("express").NextFunction) => void;

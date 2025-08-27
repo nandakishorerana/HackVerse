@@ -1,0 +1,22 @@
+import { Response, NextFunction } from 'express';
+export declare const createBooking: (req: import("express").Request, res: Response, next: NextFunction) => void;
+export declare const getUserBookings: (req: import("express").Request, res: Response, next: NextFunction) => void;
+export declare const getBookingById: (req: import("express").Request, res: Response, next: NextFunction) => void;
+export declare const updateBookingStatus: (req: import("express").Request, res: Response, next: NextFunction) => void;
+export declare const cancelBooking: (req: import("express").Request, res: Response, next: NextFunction) => void;
+export declare const addWorkSummary: (req: import("express").Request, res: Response, next: NextFunction) => void;
+export declare const getTodaysBookings: (req: import("express").Request, res: Response, next: NextFunction) => void;
+export declare const getUpcomingBookings: (req: import("express").Request, res: Response, next: NextFunction) => void;
+export declare const getBookingStats: (req: import("express").Request, res: Response, next: NextFunction) => void;
+declare const _default: {
+    createBooking: (req: import("express").Request, res: Response, next: NextFunction) => void;
+    getUserBookings: (req: import("express").Request, res: Response, next: NextFunction) => void;
+    getBookingById: (req: import("express").Request, res: Response, next: NextFunction) => void;
+    updateBookingStatus: (req: import("express").Request, res: Response, next: NextFunction) => void;
+    cancelBooking: (req: import("express").Request, res: Response, next: NextFunction) => void;
+    addWorkSummary: (req: import("express").Request, res: Response, next: NextFunction) => void;
+    getTodaysBookings: (req: import("express").Request, res: Response, next: NextFunction) => void;
+    getUpcomingBookings: (req: import("express").Request, res: Response, next: NextFunction) => void;
+    getBookingStats: (req: import("express").Request, res: Response, next: NextFunction) => void;
+};
+export default _default;

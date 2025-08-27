@@ -1,0 +1,12 @@
+import { Request, Response } from 'express';
+export declare const createReview: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const getServiceReviews: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const getProviderReviews: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const getUserReviews: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const updateReview: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const deleteReview: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const reportReview: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const respondToReview: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const getReportedReviews: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const moderateReview: (req: Request, res: Response, next: import("express").NextFunction) => void;
+export declare const getReviewStats: (req: Request, res: Response, next: import("express").NextFunction) => void;
