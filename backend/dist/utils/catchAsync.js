@@ -1,0 +1,12 @@
+import { Request, Response, NextFunction } from 'express';
+
+
+
+const catchAsync = (fn) => {
+  return (req, res, next) => {
+    fn(req, res, next).catch(next);
+  };
+};
+
+export { catchAsync };
+export default catchAsync;
